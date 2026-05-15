@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Project Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Portfolio.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="about">
+        <div class="hero-content">
+            <h1>Building Scalable, Clean Solutions</h1>
+            <p>Welcome to my professional showcase. I specialize in engineering functional web applications, optimizing systems, and structural front-end logic.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <section class="projects-section" id="projects">
+        <div class="section-container">
+            <h2 class="section-title">Completed Projects</h2>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="design">UI/UX Layouts</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="card-image img-one"></div>
+                    <div class="card-content">
+                        <h3>Interactive Lightbox Gallery</h3>
+                        <p>A native JavaScript modal application built to display multi-unit project galleries smoothly without external libraries.</p>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="card-image img-two"></div>
+                    <div class="card-content">
+                        <h3>One-Page Landing Hub</h3>
+                        <p>A minimalist, highly scannable application layout built to anchor professional data streams and modern UI hierarchies.</p>
+                        <span class="tag">HTML / CSS</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="card-image img-three"></div>
+                    <div class="card-content">
+                        <h3>Central Scripting Repository</h3>
+                        <p>A structured online hub hosting logic modules, automation snippets, and course challenge solutions.</p>
+                        <span class="tag">Git / GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2>Let's Connect</h2>
+            <p>Interested in collaborating or reviewing structural engineering code? Get in touch.</p>
+            <a href="mailto:your-email@example.com" class="btn outline">Send an Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Personal Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
